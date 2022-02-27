@@ -960,7 +960,7 @@ $(document).ready(function () {
 
     function initMap() {
       // Create a map object and specify the DOM element for display.
-      var _location = new google.maps.LatLng(37.4538889, -122.1811111);
+      var _location = new google.maps.LatLng(57.0131246720382, 9.973287820378395);
       map = new google.maps.Map(document.getElementById('map-section'), {
         scrollwheel: false,
         panControl: false,
@@ -980,7 +980,7 @@ $(document).ready(function () {
                       {'visibility': 'simplified'}]
               }
         ],
-        zoom: 12,
+        zoom: 15,
         center: _location
       });
     }
