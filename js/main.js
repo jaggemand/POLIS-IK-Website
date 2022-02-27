@@ -1012,7 +1012,7 @@ $(document).ready(function () {
     /*--------------- Countdown Timer - Homepage ------------------*/
 
     if($('.match_timing').length){
-        $('.match_timing').countdown('2015/10/31', function(event) {
+        $('.match_timing').countdown('2022/03/15', function(event) {
             $(this).html(
                 event.strftime('<ul class="counter-wrap ">' + 
                                 '<li ><span>%D</span>days</li>' + 
