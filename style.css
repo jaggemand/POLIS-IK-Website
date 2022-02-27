@@ -6892,7 +6892,7 @@ h6 {
     .footer-container,
     .footer-appstore {
       float: left;
-      width: 33.3333333333%; } }
+      width: 34.3333333333%; } }
 
 .footer-logo img {
   -webkit-transform: scale(0.6);
@@ -7109,24 +7109,26 @@ h6 {
     padding: 0; } }
 
 .banner {
-  background: white;
+  background: black;
   height: 500px; }
   @media screen and (min-width: 768px) {
     .banner {
       height: 950px; } }
   .banner img {
-    max-width: 100% !important; }
+    max-width: 100% !important;
+    opacity: 0.2; }
 
 .bannertext {
   font-family: "Montserrat", sans-serif;
   font-size: 120px;
-  color: #57606a;
+  color: #17223a;
   font-weight: 400;
   text-transform: uppercase;
   font-style: italic;
   padding-right: 10px; }
   .bannertext01 {
     font-size: 90px;
+    color: white;
     text-transform: uppercase;
     padding-right: 10px; }
     .bannertext01 sup {
@@ -7158,9 +7160,9 @@ h6 {
       border-bottom: 45px solid #17223a; }
   .bannertext03 {
     font-family: "Montserrat", sans-serif;
-    font-size: 23px;
-    color: #979da0;
-    font-weight: 400; }
+    font-size: 24px;
+    color: #17223a;
+    font-weight: 600; }
 
 .banner-text {
   background: #57606a;
@@ -7670,14 +7672,14 @@ h6 {
           padding: 10px 0; }
     .latestResult .result .count-number {
       text-align: center;
-      padding: 40px 0 30px; }
+      padding: 40px 0px 40px; }
       .latestResult .result .count-number span {
         font-family: "Oswald", sans-serif;
         font-size: 110px;
         color: white;
-        font-weight: 700;
+        font-weight: 600;
         display: inline-block;
-        padding: 0 5px; }
+        padding: 0 0px; }
     .latestResult .result .dateTime {
       font-family: "Open Sans", sans-serif;
       font-size: 16px;
@@ -8332,7 +8334,7 @@ section {
 
 .players {
   padding: 70px 0 0;
-  background-image: url("images/background/heroesBg.jpg");
+  background-image: url("images/background/whiteBgBig.jpg");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat; }
