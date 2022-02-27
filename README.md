@@ -24,7 +24,7 @@
 <h2 id="overview"> :cloud: Overview</h2>
 
 <p align="justify"> 
-  In this project a website has been created for the danish soccer team POLIS I.K. The purpose of the website is to have a platform where the club is able to communicate  information out about the club to recruit new members and promote themselves. The website is made from a template and have been hjeavily modified to the fit the requirements set by the club.
+  In this project a website has been created for the danish soccer team POLIS I.K. The purpose of the website is to have a platform where the club is able to communicate  information out about the club to recruit new members and promote themselves. The website is made from a template and have been heavily modified to the fit the requirements set by the club.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
