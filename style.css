@@ -6584,7 +6584,7 @@ h6 {
 .header-main .sub-menu {
   list-style-type: none;
   position: absolute;
-  background: #dd2c2f;
+  background: #17223a;
   top: 100%;
   height: auto;
   max-height: 0;
@@ -6814,7 +6814,7 @@ h6 {
     padding: 0; }
   nav ul li a.active {
     background: none;
-    color: #17223a; }
+    color: #193571; }
     nav ul li a.active:after {
       width: 100%;
       left: 0; } }
@@ -7116,7 +7116,7 @@ h6 {
       height: 950px; } }
   .banner img {
     max-width: 100% !important;
-    opacity: 0.2; }
+    opacity: 0.4; }
 
 .bannertext {
   font-family: "Montserrat", sans-serif;
@@ -7153,11 +7153,11 @@ h6 {
       border-left: 20px solid transparent;
       border-right: 20px solid transparent; }
     .bannertext02:after {
-      right: -21px;
-      border-top: 45px solid #17223a; }
+      right: -20px;
+      border-top: 36px solid #17223a; }
     .bannertext02:before {
-      left: -21px;
-      border-bottom: 45px solid #17223a; }
+      left: -20px;
+      border-bottom: 36px solid #17223a; }
   .bannertext03 {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
