@@ -955,7 +955,7 @@ $(document).ready(function () {
     });
 
     /*--------------- Google Maps -- Contact Page  ------------------*/
-
+    /*
     var map;
 
     function initMap() {
@@ -988,7 +988,7 @@ $(document).ready(function () {
     if($('#map-section'). length){
       google.maps.event.addDomListener(window, 'load', initMap);
     }
-
+    */
     /*--------------- Today's Date ------------------*/
 
     if($('.datetime').length){
