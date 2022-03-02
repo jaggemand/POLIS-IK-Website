@@ -6814,10 +6814,7 @@ h6 {
     padding: 0; }
   nav ul li a.active {
     background: none;
-    color: #193571; }
-    nav ul li a.active:after {
-      width: 100%;
-      left: 0; } }
+    color: #193571; }}
 
 @media screen and (max-width: 767px) {
   .header-main .logo,
@@ -6840,7 +6837,6 @@ h6 {
     height: 1px;
     bottom: 100%;
     opacity: 0;
-    background: #17223a;
     left: 0;
     transition: opacity, bottom 0.4s ease-in-out; }
     .menu-bar li span:nth-of-type(2) {
