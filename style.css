@@ -8713,8 +8713,8 @@ section {
   overflow: hidden;
   position: relative;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding-left: 10px;
+  padding-right: 10px; }
   @media (min-width: 768px) {
     .match_versus-wrap {
       float: left;
@@ -8723,16 +8723,16 @@ section {
 .match_timing {
   position: relative;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   position: relative;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   position: relative;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding-left: 10px;
+  padding-right: 10px; }
   @media (min-width: 768px) {
     .match_timing {
       float: left;
