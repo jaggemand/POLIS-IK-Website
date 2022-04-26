@@ -13,6 +13,29 @@
     <link rel=stylesheet type=text/css href=css/layerslider.css>
     <script src=js/vendor/modernizr.js></script>
 </head>
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "106576128323238");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v13.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/da_DK/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 <body><!--[if lt IE 10]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
@@ -87,6 +110,12 @@
             <div class=row>Træning Starter fra<sup>d.</sup> 15 Marts , 2022</div>
         </div>
     </div>-->
+        <!-- Messenger Chatplugin Code -->
+        <div id="fb-root"></div>
+
+        <!-- Your Chatplugin code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
     <section class="service_section layout_padding">
         <div class="container py_mobile_45">
             <div class=row><h2 class=heading>Vores <span>Fordele</span></h2></div>
